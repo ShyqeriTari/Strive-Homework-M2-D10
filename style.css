@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(212, 212, 212);
 }
 
 .container-fluid{
@@ -9,7 +9,7 @@ body{
 }
 
 .bi{
-    color: white;
+    color: rgb(179, 179, 179);
     align-self: center;
 }
 
@@ -29,11 +29,11 @@ body{
 .highl{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 10px;
+    margin-top: 20px;
     border-bottom: 0.5px solid rgb(179, 178, 178);
 }
 
-.bi-pencil-fill{
+.bi-pencil-fill, .bi-award-fill, .bi-star-fill, .bi-compass-fill{
     color: black;
     align-self: flex-start;
     margin-right: 10px;
@@ -45,30 +45,50 @@ body{
     margin-top: 15px;
 }
 
+
 #car {
     position: relative;
 }
 
-.carousel-control-prev {
+.carousel-control-prev{
+    top: 45%;
+    left: 17%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 5px solid rgb(177, 177, 177);
+    border-radius: 50%;
+}
+
+.carousel-control-next{
+    top: 45%;
+    right: 17%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 5px solid rgb(177, 177, 177);
+    border-radius: 50%;
+}
+
+
+.aa{
 
     top: 45%;
-    left: 15%;
-    width: 50px;
-    height: 50px;
+    left: 17%;
+    width: 40px;
+    height: 40px;
     padding: 10px;
-    border: 5px solid rgb(197, 197, 197);
-    border-radius: 50%;
+    border: none;
     
 }
 
-.carousel-control-next {
+.bb{
     top: 45%;
-    right: 15%;
-    width: 50px;
-    height: 50px;
+    right: 17%;
+    width: 40px;
+    height: 40px;
     padding: 10px;
-    border: 5px solid rgb(197, 197, 197);
-    border-radius: 50%;
+    border: none;
 }
 
 .carousel-indicators{
@@ -140,8 +160,48 @@ body{
     border-bottom: 0.5px solid rgb(189, 189, 189);
 }
 
-.bi-star-fill{
-    color: black;
-    align-self: flex-start;
-    margin-right: 10px;
+h5{
+    margin-right: 20px;
+}
+
+.highl2>h5:nth-of-type(1n +2){
+   color: rgb(107, 0, 139);
+}
+
+
+.rowdiv{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    height: 400px;
+}
+
+.rowdiv> div> img{
+    height: 400px;
+   margin-right: 20px;
+}
+
+.rowdiv> div> div{
+    padding:0px;
+}
+
+.rowcard > div > div{
+    height: 195px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.rowcard > div > div .icon-price{
+ 
+    margin: 10px;
+
+}
+
+.card p{
+    margin: 10px;
+}
+
+.dtr {
+    margin-top: 40px;
 }
