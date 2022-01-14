@@ -72,7 +72,7 @@ body{
 }
 
 .carousel-indicators{
-    top: 110%;
+    top: 102%;
    
 }
 
@@ -83,7 +83,7 @@ body{
 .cards{
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .card-text{
@@ -107,8 +107,8 @@ body{
 
 #disclaimer {
     width: 100%;
-    border-top: 1px solid rgb(179, 179, 179);
-    border-bottom: 1px solid rgb(179, 179, 179);
+    border-top: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid rgb(155, 155, 155);
     display: flex;
     padding: 10px 20%;
     margin-top: 30px;
@@ -116,7 +116,7 @@ body{
 
 #firstspan {
     margin-right: 20px;
-    border-right:1px solid rgb(179, 179, 179);
+    border-right:1px solid rgb(155, 155, 155);
     font-size: 13px;
     
 }
@@ -137,7 +137,7 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 20px;
-    border-bottom: 0.5px solid rgb(179, 178, 178);
+    border-bottom: 0.5px solid rgb(189, 189, 189);
 }
 
 .bi-star-fill{
