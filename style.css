@@ -205,3 +205,17 @@ h5{
 .dtr {
     margin-top: 40px;
 }
+
+.container{
+    background-color: black;
+}
+
+.navart {
+    border: none !important;
+    background-color: rgb(54, 54, 54);
+
+}
+
+.navart1{
+    border: none!important;
+}
