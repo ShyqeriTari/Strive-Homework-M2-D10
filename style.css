@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+.container-fluid{
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: flex-start !important;
+}
+
+.bi{
+    color: white;
+    align-self: center;
+}
+
+.navbar-nav {
+    margin-right: 10px !important;
+}
+
+#icons {
+    margin-left: auto;
+    display: flex;
+}
+
+#icons > .bi{
+    margin-left: 20px;
+}
+
+.highl{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    border-bottom: 0.5px solid rgb(179, 178, 178);
+}
+
+.bi-pencil-fill{
+    color: black;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+
+#carouselExampleDark{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+#car {
+    position: relative;
+}
+
+.carousel-control-prev {
+
+    top: 45%;
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid rgb(197, 197, 197);
+    border-radius: 50%;
+    
+}
+
+.carousel-control-next {
+    top: 45%;
+    right: 15%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid rgb(197, 197, 197);
+    border-radius: 50%;
+}
+
+.carousel-indicators{
+    top: 110%;
+   
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(109, 107, 107);
+}
+
+.cards{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 70px;
+}
+
+.card-text{
+    color:  rgb(131, 129, 129);
+    margin-bottom: 30px;
+}
+
+.icon-price{
+    justify-content: space-between;
+}
+
+.icon-price > span{
+    color: rgb(97, 96, 96);
+}
+
+.bi-windows{
+    color: rgb(151, 150, 150);
+    align-self: center;
+    margin-right: 12px;
+}
+
+#disclaimer {
+    width: 100%;
+    border-top: 1px solid rgb(179, 179, 179);
+    border-bottom: 1px solid rgb(179, 179, 179);
+    display: flex;
+    padding: 10px 20%;
+    margin-top: 30px;
+}
+
+#firstspan {
+    margin-right: 20px;
+    border-right:1px solid rgb(179, 179, 179);
+    font-size: 13px;
+    
+}
+
+#secondspan svg {
+    color: rgb(107, 0, 139);
+    margin-bottom: 1px;
+}
+
+
+#secondspan {
+    font-size: 14px;
+    color: rgb(107, 0, 139);  
+    font-weight: 600; 
+}
+
+.highl2{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border-bottom: 0.5px solid rgb(179, 178, 178);
+}
+
+.bi-star-fill{
+    color: black;
+    align-self: flex-start;
+    margin-right: 10px;
+}
